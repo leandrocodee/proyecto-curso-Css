@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/contacto.css">
+</head>
+<body>
+
+    <header>
+        <h1>Jack fue asignado a un nuevo trabajo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="area51.html">Nuevo trabajo</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+<br><br>
+
+<div class="contenedor">
+    <form>
+        <fieldset>
+            <legend>Formulario</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe aqui tu nombre" required>
+            <label for="mail">Email</label>
+            <input type="email" name="mail" id="mail" placeholder="Escribe aqui tu email" required>
+            <label for="pais">Pais</label>
+            <select name="pais" id="pais">    
+                <option value="opcion1">Argentina</option>
+                <option value="opcion2">Belgica</option>
+                <option value="opcion3">Brazil</option>
+                <option value="opcion4" selected>Colombia</option>
+                <option value="opcion5">Peru</option>
+            </select>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios" cols="20" rows="2" placeholder="Escribe aqui tu comentario"></textarea>
+            <input type="submit">
+        </fieldset>
+    </form>
+</div>    
+<br>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+</body>
+</html>

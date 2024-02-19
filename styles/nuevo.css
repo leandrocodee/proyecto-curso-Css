@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    margin: 0;
+    padding: 16px;
+    font-size: 26px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    background-color: #fff;
+}
+
+td{
+    padding: 10px 20px;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+th{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    background-color:rgb(190, 190, 190) ; 
+}
+
+tr:hover{
+    background-color: rgb(221, 220, 220);
+}
